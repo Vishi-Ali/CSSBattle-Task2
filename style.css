@@ -1,0 +1,35 @@
+* {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.navbar-left,
+.navbar-mid,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.marvel-logo {
+    width: 70px;
+}
+
+.text-input {
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 5px;
+    padding-right: 100px;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+}
